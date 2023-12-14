@@ -40,7 +40,7 @@
         ?>
 
         <h2>Totalizando Tudo</h2>
-        <p>Analisando o valor que você digitou, <strong><?=$total?> segundos</strong> equivalem a um total de:</p>
+        <p>Analisando o valor que você digitou, <strong><?=number_format($total,0,",",".")?> segundos</strong> equivalem a um total de:</p>
         <ul>
             <li> <?=$semana?> semanas</li>
             <li> <?=$dia?> dias</li>
